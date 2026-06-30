@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"be.belegkarnil.game.board.tak"},{"l":"be.belegkarnil.game.board.tak.event"},{"l":"be.belegkarnil.game.board.tak.gui"},{"l":"be.belegkarnil.game.board.tak.strategy"}];updateSearchResults();

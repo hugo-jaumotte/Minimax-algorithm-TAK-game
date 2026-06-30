@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Documentation – BelegSpectrangle</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+            margin: 0;
+            overflow: hidden;
+            font-family: sans-serif;
+        }
+
+        .no-select, .no-select * {
+            user-select: none;
+            pointer-events: none;
+        }
+
+        body.resizing {
+            overflow: hidden !important;
+        }
+
+        #container {
+            display: flex;
+            height: 100%;
+        }
+
+        #left-pane {
+            width: 400px;
+            min-width: 150px;
+            /* 			max-width: 400px; */
+            display: flex;
+            flex-direction: column;
+            resize: horizontal;
+            overflow: hidden;
+            border-right: 2px solid #ccc;
+        }
+
+        #resizer-h {
+            height: 5px;
+            cursor: row-resize;
+            background-color: #ccc;
+        }
+
+        #packages {
+            flex-grow: 1;
+            height: 50%;
+        }
+
+        #classes {
+            flex-grow: 1;
+        }
+
+        #right-pane {
+            flex-grow: 1;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        #resizer-v {
+            width: 5px;
+            cursor: col-resize;
+            background-color: #ccc;
+        }
+    </style>
+    <script src="framed.js"></script>
+</head>
+<body>
+<div id="container">
+    <div id="left-pane">
+        <iframe id="packages" src="overview-summary.html" title="Packages"></iframe>
+        <div id="resizer-h"></div>
+        <iframe id="classes" src="allclasses-index.html" title="Classes"></iframe>
+    </div>
+    <div id="resizer-v"></div>
+    <div id="right-pane">
+        <iframe id="content" src="index.html" name="mainFrame" title="Contenu"></iframe>
+    </div>
+</div>
+</body>
+</html>
