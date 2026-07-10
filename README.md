@@ -50,7 +50,7 @@ The AI includes several optimizations beyond standard Minimax:
 
 ## Project structure
 
-The following two files were added as part of this project:
+The main implementation is organized into the following files:
 
 ### BoardHelper.java
 
