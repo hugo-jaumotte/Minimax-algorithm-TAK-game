@@ -36,7 +36,13 @@ File: [hjaumotte.java](https://github.com/hugo-jaumotte/Minimax-algorithm-TAK-ga
 This project implements an AI player for the board game Tak.  
 The AI is built around Minimax with alpha-beta pruning, iterative deepening, and heuristic-based move ordering to efficiently explore the game tree under a strict time limit.
 
-The decision-making process is structured around several components:
+### Decision process
+
+<p align="center">
+  <img src="docs/minimax_pipeline.png" alt="Overview of the AI decision process" width="800">
+</p>
+
+The diagram below summarizes the overall decision pipeline, from move generation to the final move selection.
 
 ### Search algorithm
 
