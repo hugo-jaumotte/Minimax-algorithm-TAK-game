@@ -86,7 +86,7 @@ This project is based on a Tak game engine codebase provided by the professor as
 
 Original repository: [`BoardHelper.java`](src/main/java/be/belegkarnil/game/board/tak/BoardHelper.java)
 Original documentation: https://belegkarnil.github.io/BelegTak/framed.html  
-Original author: ['Belegkarnil'](https://github.com/belegkarnil)  
+Original author: [`Belegkarnil`](https://github.com/belegkarnil)  
 License: MIT
 
 The original code was used as a starting point and has been modified and extended.
