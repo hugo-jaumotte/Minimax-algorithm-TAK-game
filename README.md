@@ -39,7 +39,7 @@ The AI is built around Minimax with alpha-beta pruning, iterative deepening, and
 ### Decision process
 
 <p align="center">
-  <img src="docs/minimax_pipeline.png" alt="Overview of the AI decision process" width="800">
+  <img src="docs/tak_ai_search_pipeline.png" alt="Overview of the AI decision process" width="800">
 </p>
 
 The diagram below summarizes the overall decision pipeline, from move generation to the final move selection.
