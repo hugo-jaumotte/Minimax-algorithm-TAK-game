@@ -84,7 +84,7 @@ cd Minimax-algorithm-TAK-game
 
 This project is based on a Tak game engine codebase provided by the professor as part of the course.
 
-Original repository: https://github.com/belegkarnil/tak
+Original repository: https://github.com/belegkarnil/BelegTak<br>
 Original documentation: https://belegkarnil.github.io/BelegTak/framed.html  
 Original author: [`Belegkarnil`](https://github.com/belegkarnil)  
 License: MIT
